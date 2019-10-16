@@ -40,11 +40,11 @@ class SkillBars extends Component {
     let psi = selectedSlider === 0 && (
       <div>
         <ul>
-          <li><span className="html5"></span><em>Avaliação, diagnóstico e intervenção</em></li>
-          <li><span className="css3"></span><em>Elaboração de relatórios de avaliação</em></li>
-          <li><span className="js"></span><em>Gritar mais alto que os miudos</em></li>
-          <li><span className="react"></span><em>Dizer que o patrao nao paga nada</em></li>
-          <li><span className="electron"></span><em>Bater com o telemovel até partir</em></li>
+          <li><span className="html5"></span><em>Avaliação das diferentes áreas do neurodesenvolvimento da criança</em></li>
+          <li><span className="css3"></span><em>Elaboração de relatórios de avaliação e de intervenção</em></li>
+          <li><span className="js"></span><em>Intervenção com recurso a diferentes metodologias (TEACCH,PECS e Programa PIPA).</em></li>
+          <li><span className="react"></span><em>Intervenção direta com crianças com Perturbação de Espetro Autismo (contexto individual e sala aula)</em></li>
+          <li><span className="electron"></span><em>Trabalho em equipa multidisciplinar</em></li>
         </ul>
       </div>
     );

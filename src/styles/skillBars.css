@@ -46,23 +46,23 @@
   position: absolute;
 }
 .skills .html5 {
-  width: 85%;
+  width: 93%;
   animation: html5 1s ease-out;
 }
 .skills .css3 {
-  width: 60%;
+  width: 93%;
   animation: css3 1s ease-out;
 }
 .skills .js {
-  width: 90%;
+  width: 93%;
   animation: js 1s ease-out;
 }
 .skills .react {
-  width: 85%;
+  width: 93%;
   animation: react 1s ease-out;
 }
 .skills .electron {
-  width: 65%;
+  width: 93%;
   animation: electron 1s ease-out;
 }
 .skills .java {
