@@ -3,9 +3,9 @@
     flex-direction: column;
     box-sizing: border-box;
     font-size: 14px;
-    background: #bdcebeEE;
+    background: #92a8d1BB;
     font-family: "Open Sans", sans-serif;
-    color: #525f7f;
+    color: #023246;
     margin: 10px auto;
     max-width: 1000px;
     border-radius: 6px;
@@ -13,6 +13,7 @@
 
 .workHistoryTitle {
     padding-top: 20px;
+    color: #023246;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -53,12 +54,12 @@
     transition-property: transform opacity;
 }
 .workHistoryItem:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     /* move the element up by 5px */
 }
 .workHistoryItem:hover:before {
-    opacity: 1;
-    transform: translateY(5px);
+    /* opacity: 1;
+    transform: translateY(5px); */
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
@@ -122,18 +123,18 @@
 }
 
 .workHistoryItem:nth-child(4n+1) .workHistoryItemDate, .workHistoryItem:nth-child(4n+1) .workHistoryItemIcon {
-    background-color: #ada397;
+    background-color: #ffef96;
     color: #023246;
 }
 .workHistoryItem:nth-child(4n+2) .workHistoryItemDate, .workHistoryItem:nth-child(4n+2) .workHistoryItemIcon {
-    background-color: #ada397;
+    background-color: #50394c;
     color: #f6f6f6;
 }
 .workHistoryItem:nth-child(4n+3) .workHistoryItemDate, .workHistoryItem:nth-child(4n+3) .workHistoryItemIcon {
-    background-color: #ada397;
-    color: #f6f6f6;
+    background-color: #f4e1d2;
+    color: #023246;
 }
 .workHistoryItem:nth-child(4n+4) .workHistoryItemDate, .workHistoryItem:nth-child(4n+4) .workHistoryItemIcon {
-    background-color: #ada397;
-    color: #023246;
+    background-color: #36486b;
+    color: #f6f6f6;
 }

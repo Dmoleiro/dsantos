@@ -39,12 +39,13 @@ class SkillBars extends Component {
 
     let psi = selectedSlider === 0 && (
       <div>
+        <div className="title">Habilitações</div>
         <ul>
-          <li><span className="html5"></span><em>Avaliação das diferentes áreas do neurodesenvolvimento da criança</em></li>
-          <li><span className="css3"></span><em>Elaboração de relatórios de avaliação e de intervenção</em></li>
-          <li><span className="js"></span><em>Intervenção com recurso a diferentes metodologias (TEACCH,PECS e Programa PIPA).</em></li>
-          <li><span className="react"></span><em>Intervenção direta com crianças com Perturbação de Espetro Autismo (contexto individual e sala aula)</em></li>
-          <li><span className="electron"></span><em>Trabalho em equipa multidisciplinar</em></li>
+          <div className="box-c"><div href="#" className="customUnderline">Avaliação das diferentes áreas do neurodesenvolvimento da criança</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Elaboração de relatórios de avaliação e de intervenção</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Intervenção com recurso a diferentes metodologias (TEACCH,PECS e Programa PIPA).</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Intervenção direta com crianças com Perturbação de Espetro Autismo (contexto individual e sala aula)</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Trabalho em equipa multidisciplinar</div></div>
         </ul>
       </div>
     );
