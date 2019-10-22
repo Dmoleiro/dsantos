@@ -5,7 +5,7 @@ import Introduction from '../components/introduction';
 import '../styles/landing.css';
 import TitleBar from "../components/titleBar";
 import WorkHistory from "../components/workHistory";
-import WorkHistory2 from "../components/workHistory2";
+// import WorkHistory2 from "../components/workHistory2";
 import WelcomeScreen from "../components/welcomeScreen";
 // import WelcomeScreen2 from "../components/welcomeScreen2";
 import DownloadCV from "../components/downloadCV";
@@ -59,8 +59,8 @@ class Landing extends Component {
             <Introduction />
             {/*<InfoSlider store={this.props.store}/>*/}
             <SkillBars store={this.props.store}/>
-            {/*<WorkHistory />*/}
-            <WorkHistory2 />
+            <WorkHistory />
+            {/*<WorkHistory2 />*/}
             <DownloadCV />
         </div>
     );
