@@ -8,70 +8,102 @@ class WorkHistory extends Component {
     render() {
         return (
             <div className="workHistoryContainer" id="history">
-                <div className="workHistoryTitle">Formação</div>
+                <div className="workHistoryTitle">Desenvolvimento Profissional</div>
                 <div className="workHistory">
                     <div className="workHistoryItem">
                         <div className="workHistoryItemIcon ">
                           <FontAwesomeIcon icon={faUsers} />
                         </div>
                         <div className="workHistoryItemDate">
-                            02/18 - present
+                            2016 - Presente
                         </div>
                         <div className="workHistoryItemContent ">
                             <div className="workHistoryItemTitle">
-                                Psicóloga Educaciona @Logicamentes
+                                Psicóloga Educacional @Centro de Desenvolvimento Infantil Logicamentes
                             </div>
                             <div className="workHistoryItemDescription">
-                                Nem sei bem por onde começar, se as outras era cabras, destas nem se fala.
+                                Descrição.
                             </div>
                         </div>
                     </div>
                     <div className="workHistoryItem">
                         <div className="workHistoryItemIcon">
-                          <FontAwesomeIcon icon={faFutbol} />
+                          <FontAwesomeIcon icon={faUsers} />
                         </div>
                         <div className="workHistoryItemDate">
-                            02/17 - 07/18
+                            2018 - Presente
                         </div>
                         <div className="workHistoryItemContent">
                             <div className="workHistoryItemTitle">
-                                Estágio Curricular @Diferenças
+                                Psicóloga Clinica Médica @Fisiomedical
                             </div>
                             <div className="workHistoryItemDescription">
-                                As colegas eram todas umas cabras.
+                                Descrição.
                             </div>
                         </div>
                     </div>
                     <div className="workHistoryItem">
                         <div className="workHistoryItemIcon">
-                          <FontAwesomeIcon icon={faBriefcaseMedical} />
+                          <FontAwesomeIcon icon={faUsers} />
                         </div>
                         <div className="workHistoryItemDate">
-                            02/13 - 02/17
+                            2018
                         </div>
                         <div className="workHistoryItemContent">
                             <div className="workHistoryItemTitle">
-                                Estagio Curricular @CBEI
+                                Formações / Apresentações
                             </div>
                             <div className="workHistoryItemDescription">
-                                Aquilo não é sitio para uma princesa trabalhar.
+                                Elaboração apresentação sobre “Programa de Estimulação da Leitura e da Escrita em crianças com perturbação do Espetro do Autismo” Universidade Minho.
                             </div>
 
                         </div>
                     </div>
                     <div className="workHistoryItem">
                         <div className="workHistoryItemIcon">
-                          <FontAwesomeIcon icon={faGraduationCap} />
+                          <FontAwesomeIcon icon={faUsers} />
                         </div>
                         <div className="workHistoryItemDate">
-                            09/08 - 05/12
+                            2018
                         </div>
                         <div className="workHistoryItemContent">
                             <div className="workHistoryItemTitle">
-                                Mestrado Integrado Psicologia Educacional @ISPA
+                                Formações / Apresentações
                             </div>
                             <div className="workHistoryItemDescription">
-                                Estudei muitas coisas.
+                                Apresentação da candidatura ao Prémio Ano Profissional Júnior 2017/2018 para os 10 melhores estágios, Braga.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="workHistoryItem">
+                        <div className="workHistoryItemIcon">
+                            <FontAwesomeIcon icon={faUsers} />
+                        </div>
+                        <div className="workHistoryItemDate">
+                            2017 / 2018
+                        </div>
+                        <div className="workHistoryItemContent">
+                            <div className="workHistoryItemTitle">
+                                Formações / Apresentações
+                            </div>
+                            <div className="workHistoryItemDescription">
+                                Elaboração de Programas de Prevenção Social e Comportamental no 2º ciclo.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="workHistoryItem">
+                        <div className="workHistoryItemIcon">
+                            <FontAwesomeIcon icon={faUsers} />
+                        </div>
+                        <div className="workHistoryItemDate">
+                            2016
+                        </div>
+                        <div className="workHistoryItemContent">
+                            <div className="workHistoryItemTitle">
+                                Formações / Apresentações
+                            </div>
+                            <div className="workHistoryItemDescription">
+                                Elaboração de um artigo “A Intervenção do Psicólogo nas Necessidades Educativas Especiais – A experiência de um Centro de Desenvolvimento Infantil”, Congresso OPP.
                             </div>
                         </div>
                     </div>
