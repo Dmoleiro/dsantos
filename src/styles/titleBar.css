@@ -21,7 +21,7 @@
 
 .titlePosititon {
     margin: 5px 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .horizontalBreak {
@@ -32,10 +32,12 @@
 
 .titleAddress, .titleContacts {
     margin: 2px 20px;
+    font-size: 16px;
 }
 
 .titleContacts {
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .titlePhoto {

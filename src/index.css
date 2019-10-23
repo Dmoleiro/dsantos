@@ -11,6 +11,7 @@ body {
   -o-background-size: cover;
   overflow-x: hidden;
   cursor: default;
+  overflow-y: hidden;
 }
 
 code {

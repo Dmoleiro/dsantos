@@ -9,7 +9,6 @@ class TitleBar extends Component {
                     Daniela Santos
                 </div>
                 <div className="titlePosititon">
-                    {/*Javascript developer / Team Leader*/}
                     Psicóloga Educacional
                 </div>
                 <hr className="horizontalBreak"/>
