@@ -102,6 +102,7 @@
 }
 .workHistoryItemDescription {
     flex-basis: 60%;
+    line-height: 20px;
 }
 .workHistoryItemIcon {
     display: flex;

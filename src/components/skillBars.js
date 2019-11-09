@@ -40,12 +40,10 @@ class SkillBars extends Component {
     let psi = selectedSlider === 0 && (
       <div>
         <div className="title">Habilitações</div>
-        <ul>
           <div className="box-c"><div href="#" className="customUnderline">Avaliação Global do Desenvolvimento</div></div>
           <div className="box-c"><div href="#" className="customUnderline">Avaliação Psicológica e Psicopedagógica</div></div>
           <div className="box-c"><div href="#" className="customUnderline">Elaboração de relatórios de Avaliação / Diagnóstico</div></div>
           <div className="box-c"><div href="#" className="customUnderline">Conhecimento de diferentes provas de avaliação</div></div>
-        </ul>
       </div>
     );
 
