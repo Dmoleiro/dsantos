@@ -41,11 +41,10 @@ class SkillBars extends Component {
       <div>
         <div className="title">Habilitações</div>
         <ul>
-          <div className="box-c"><div href="#" className="customUnderline">Avaliação das diferentes áreas do neurodesenvolvimento da criança</div></div>
-          <div className="box-c"><div href="#" className="customUnderline">Elaboração de relatórios de avaliação e de intervenção</div></div>
-          <div className="box-c"><div href="#" className="customUnderline">Intervenção com recurso a diferentes metodologias (TEACCH,PECS e Programa PIPA).</div></div>
-          <div className="box-c"><div href="#" className="customUnderline">Intervenção direta com crianças com Perturbação de Espetro Autismo (contexto individual e sala aula)</div></div>
-          <div className="box-c"><div href="#" className="customUnderline">Trabalho em equipa multidisciplinar</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Avaliação Global do Desenvolvimento</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Avaliação Psicológica e Psicopedagógica</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Elaboração de relatórios de Avaliação / Diagnóstico</div></div>
+          <div className="box-c"><div href="#" className="customUnderline">Conhecimento de diferentes provas de avaliação</div></div>
         </ul>
       </div>
     );
