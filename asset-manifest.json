@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dsantos/static/css/main.0bda27e0.chunk.css",
+    "main.js": "/dsantos/static/js/main.a3b3a265.chunk.js",
+    "main.js.map": "/dsantos/static/js/main.a3b3a265.chunk.js.map",
+    "runtime-main.js": "/dsantos/static/js/runtime-main.4bff06c5.js",
+    "runtime-main.js.map": "/dsantos/static/js/runtime-main.4bff06c5.js.map",
+    "static/js/2.95dc976b.chunk.js": "/dsantos/static/js/2.95dc976b.chunk.js",
+    "static/js/2.95dc976b.chunk.js.map": "/dsantos/static/js/2.95dc976b.chunk.js.map",
+    "index.html": "/dsantos/index.html",
+    "precache-manifest.2c3e8bb33dfd75892a94507958e54324.js": "/dsantos/precache-manifest.2c3e8bb33dfd75892a94507958e54324.js",
+    "service-worker.js": "/dsantos/service-worker.js",
+    "static/css/main.0bda27e0.chunk.css.map": "/dsantos/static/css/main.0bda27e0.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bff06c5.js",
+    "static/js/2.95dc976b.chunk.js",
+    "static/css/main.0bda27e0.chunk.css",
+    "static/js/main.a3b3a265.chunk.js"
+  ]
+}
