@@ -29,13 +29,15 @@
 
 .workHistoryItem {
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     display: flex;
     margin: 20px 0;
     border-radius: 6px;
     align-self: center;
     width: 95vw;
-    max-width: 1000px;
+    max-width: 960px;
 }
 
 .workHistoryItem:before {
@@ -53,10 +55,12 @@
     transition-duration: 0.3s;
     transition-property: transform opacity;
 }
+
 .workHistoryItem:hover {
     /* transform: translateY(-5px); */
     /* move the element up by 5px */
 }
+
 .workHistoryItem:hover:before {
     /* opacity: 1;
     transform: translateY(5px); */
@@ -66,9 +70,11 @@
 .workHistoryItem:nth-child(2n + 1) {
     flex-direction: row-reverse;
 }
+
 .workHistoryItem:nth-child(2n + 1) .workHistoryItemDate {
     border-radius: 0 6px 6px 0;
 }
+
 .workHistoryItem:nth-child(2n + 1) .workHistoryItemContent {
     border-radius: 6px 0 0 6px;
 }
@@ -81,6 +87,7 @@
     color: #5B5B5B;
     letter-spacing: 1.5px;
 }
+
 .workHistoryItemContent {
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -88,6 +95,7 @@
     width: calc(55vw - 84px);
     border-radius: 0 6px 6px 0;
 }
+
 .workHistoryItemDate {
     color: #B4B4B4;
     font-size: 1em;
@@ -100,10 +108,12 @@
     padding: 0 10px;
     border-radius: 6px 0 0 6px;
 }
+
 .workHistoryItemDescription {
     flex-basis: 60%;
     line-height: 20px;
 }
+
 .workHistoryItemIcon {
     display: flex;
     align-items: center;
@@ -119,23 +129,31 @@
     height: 40px;
     position: relative;
 }
+
 .workHistoryItemIcon i {
     font-size: 1em;
 }
 
-.workHistoryItem:nth-child(4n+1) .workHistoryItemDate, .workHistoryItem:nth-child(4n+1) .workHistoryItemIcon {
+.workHistoryItem:nth-child(4n+1) .workHistoryItemDate,
+.workHistoryItem:nth-child(4n+1) .workHistoryItemIcon {
     background-color: #ffef96;
     color: #023246;
 }
-.workHistoryItem:nth-child(4n+2) .workHistoryItemDate, .workHistoryItem:nth-child(4n+2) .workHistoryItemIcon {
+
+.workHistoryItem:nth-child(4n+2) .workHistoryItemDate,
+.workHistoryItem:nth-child(4n+2) .workHistoryItemIcon {
     background-color: #50394c;
     color: #f6f6f6;
 }
-.workHistoryItem:nth-child(4n+3) .workHistoryItemDate, .workHistoryItem:nth-child(4n+3) .workHistoryItemIcon {
+
+.workHistoryItem:nth-child(4n+3) .workHistoryItemDate,
+.workHistoryItem:nth-child(4n+3) .workHistoryItemIcon {
     background-color: #f4e1d2;
     color: #023246;
 }
-.workHistoryItem:nth-child(4n+4) .workHistoryItemDate, .workHistoryItem:nth-child(4n+4) .workHistoryItemIcon {
+
+.workHistoryItem:nth-child(4n+4) .workHistoryItemDate,
+.workHistoryItem:nth-child(4n+4) .workHistoryItemIcon {
     background-color: #36486b;
     color: #f6f6f6;
 }
