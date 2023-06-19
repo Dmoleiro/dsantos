@@ -38,6 +38,26 @@ class WorkHistory extends Component {
                         </div>
                         <div className="workHistoryItemContent">
                             <div className="workHistoryItemTitle">
+                                PSICÓLOGA EDUCACIONAL - CPD - Centro de Psicologia e Desenvolvimento Póvoa de S. Iria
+                            </div>
+                            <div className="workHistoryItemDescription">
+                                <p>Avaliação das diferentes áreas do neurodesenvolvimento da criança (avaliação global do desenvolvimento; avaliação psicológica; avaliação psicopedagógica)</p>
+                                <p>Realização de relatórios de avaliação e intervenção</p>
+                                <p>Intervenção com a criança (modificação de comportamentos e ajustamento social e académico)</p>
+                                <p>Intervenção com pais, educadores e escola - visa a partilha de informações relevantes e o estabelecimento de estratégias para o sucesso do trabalho com as famílias, escolas e outros intervenientes que façam parte do contexto na vida da criança</p>
+                                <p>Intervenção contexto clinico.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="workHistoryItem">
+                        <div className="workHistoryItemIcon">
+                            <FontAwesomeIcon icon={faUsers} />
+                        </div>
+                        <div className="workHistoryItemDate">
+                            2020 - Presente
+                        </div>
+                        <div className="workHistoryItemContent">
+                            <div className="workHistoryItemTitle">
                                 PSICÓLOGA EDUCACIONAL - CRI (ATRAVÉS DA CERCI FLOR DA VIDA)
                             </div>
                             <div className="workHistoryItemDescription">
